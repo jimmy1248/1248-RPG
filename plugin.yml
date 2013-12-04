@@ -1,0 +1,12 @@
+name: 1248-RPG
+main: net.jimmy1248.rpg1248.RPG1248
+version: 1.7.2
+
+commands:
+  clan:
+    description: Teleports you to spawn
+    usage: /clan
+    permission: suite1248.spawn
+    permission-message: You don't have <permission>
+
+

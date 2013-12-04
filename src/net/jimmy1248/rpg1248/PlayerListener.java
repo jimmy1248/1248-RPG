@@ -1,7 +1,10 @@
 package net.jimmy1248.rpg1248;
 
-public class PlayerListener {
+import org.bukkit.event.Listener;
+
+public class PlayerListener implements Listener{
 	
+	@SuppressWarnings("unused")
 	private RPG1248 plugin;
 
 	public PlayerListener(RPG1248 plugin) {
