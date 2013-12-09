@@ -6,7 +6,7 @@ commands:
   clan:
     description: Teleports you to spawn
     usage: /clan
-    permission: suite1248.spawn
+    permission: a
     permission-message: You don't have <permission>
 
 

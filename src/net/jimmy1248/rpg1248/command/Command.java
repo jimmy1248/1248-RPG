@@ -10,4 +10,7 @@ import java.lang.annotation.Target;
 public @interface Command {
 	String name() default "";
 	String sub() default "";
-}
+	boolean playeronly() default false;
+	String permission() default "";
+	String description() default "";
+ }
