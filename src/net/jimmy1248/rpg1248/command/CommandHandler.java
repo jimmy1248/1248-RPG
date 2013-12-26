@@ -1,7 +1,5 @@
 package net.jimmy1248.rpg1248.command;
 
-import java.util.HashMap;
-
 import org.bukkit.command.CommandSender;
 
 import net.jimmy1248.rpg1248.RPG1248;
@@ -12,15 +10,10 @@ public class CommandHandler {
 		this.plugin = plugin;
 	}	
 
-	@Command(name = "clan",
-			sub = "<a>")
-	public void a(CommandSender sender,HashMap<String, String> args){
-		sender.sendMessage(args.get("funca"));
+	@Command(name = "clan")
+	public void Clan(CommandSender sender,String[] args){
+		if(args.length == 1) sender.sendMessage(args[0]);
 	}
 	
-	@Command(name = "clan",
-			sub = "a <a>")
-	public void b(CommandSender sender,HashMap<String, String> args){
-		sender.sendMessage("funcb");
-	}
+
 }
